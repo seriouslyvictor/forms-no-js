@@ -92,10 +92,6 @@ input, select {
     justify-content: center;
 }
 
-.wrapper--mid input{
-    /* width: fit-content; */
-}
-
 .wrapper--btn {
     margin-top: 1.5625rem;
     width: 100%;
@@ -149,3 +145,25 @@ input:focus {
     color: #222;
 }
 
+
+
+@media only screen and (max-width: 53.125rem)  {
+    form {
+        grid-template-columns: 1fr;
+        grid-template-rows: 14.065rem 1fr;
+    }
+
+    form img {
+        border-radius: 7px 7px 0px 0px;
+    }
+
+    .direito{
+        padding: .9375rem 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 32.8125rem)  {
+    h1 {
+        font-size: 2rem;
+    }
+}
