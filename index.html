@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms! 🗃</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <h1>Meu primeiro form!</h1>
+
+    <form action="#">
+        <div class="esquerdo">
+            <img src="pixel_art_coder.jpg" alt="Imagem em pixel art de um programador">
+        </div>
+        <div class="direito">
+            <h1><span class="gradient--texto">Faça sua inscrição!</span></h1>
+            <label for="nome"> Nome Completo:</label>
+            <input type="text" name="nome" id="nome" required autocomplete="off">
+
+            <label for="mail"> Email:</label>
+            <input type="email" name="mail" id="mail" required placeholder="email@email.com">
+            <div class="wrapper--mid">
+                <label for="age"> Data Nascimento:
+                    <input type="date" name="age" id="age" required>
+                </label>
+
+                <label for="ddd"> Whatsapp:
+                    <input type="text" name="zap" id="zap" placeholder="99999 9999" maxlength="9"></label>
+            </div>
+
+            <label for="city">Cidade:</label>
+            <input type="text" name="city" id="city" maxlength="35" required>
+            
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso" required>
+                <option value="fe">Front End</option>
+                <option value="info">Informática Básica</option>
+                <option value="tec">Técnicas Administrativas</option>
+                <option value="mkt">Marketing</option>
+                <option value="back">Back End - Python</option>
+                <option value="..." selected disabled hidden>Selecione um curso...</option>
+            </select>
+            <div class="wrapper--btn">
+                <button type="submit" class="btn--primario">✔ Cadastrar</button>
+                <button type="reset" class="btn--secundario">🚫 Limpar</button>
+            </div>
+        </div>
+
+
+    </form>
 
 
 </body>
+
 </html>
