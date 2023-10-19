@@ -135,3 +135,17 @@ button {
     background-color: #4f545c;
 }
 
+
+
+input:invalid {
+    color: #FC466B;
+}
+
+input:valid {
+    color: green;
+}
+
+input:focus {
+    color: #222;
+}
+
