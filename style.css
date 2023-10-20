@@ -147,7 +147,7 @@ input:focus {
 
 
 
-@media only screen and (max-width: 53.125rem)  {
+@media screen and (max-width: 53.125rem)  {
     form {
         grid-template-columns: 1fr;
         grid-template-rows: 14.065rem 1fr;
@@ -166,7 +166,7 @@ input:focus {
     }
 }
 
-@media only screen and (max-width: 32.8125rem)  {
+@media screen and (max-width: 32.8125rem)  {
     h1 {
         font-size: 2rem;
     }
